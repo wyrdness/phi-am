@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/phi-am",
     "maintainers": [
       {
@@ -18,76 +18,112 @@
   },
   "phenomenon": {
     "id": "phi-am",
-    "name": "",
-    "aliases": [],
-    "category": "GHOST_HAUNTING",
-    "subcategory": "Unknown",
-    "tags": [
-      "folklore",
-      "mythology"
+    "name": "Phi Am",
+    "aliases": [
+      { "name": "ผีอำ", "language": "Thai", "region": "Thailand", "meaning": "the ghost that holds/presses down" },
+      { "name": "Phii Am", "language": "Thai (Romanization)", "region": "Thailand" }
     ],
-    "status": "documented",
+    "category": "GHOST_HAUNTING",
+    "subcategory": "Sleep paralysis spirit",
+    "tags": [
+      "thai-folklore",
+      "sleep-paralysis",
+      "nocturnal",
+      "southeast-asia",
+      "night-hag",
+      "incubus-analogue",
+      "phi"
+    ],
+    "status": "active",
     "description": {
-      "summary": "No description available.",
-      "full": ""
+      "summary": "A nocturnal spirit in Thai folklore said to sit on a sleeper's chest, paralyzing them and causing breathing difficulty. The name is used colloquially in Thailand for the experience of sleep paralysis itself.",
+      "full": "Phi Am (Thai: ผีอำ) is a spirit in Thai folklore that visits sleepers at night and presses down on the chest, immobilizing the victim and obstructing breathing. The phenomenon is part of a global family of sleep-paralysis traditions — analogous to the Old Hag of Newfoundland, the Mara of Scandinavia, kanashibari in Japan, bangungot in the Philippines, and khmaoch sangkat in Cambodia — in which a supernatural figure is held responsible for the immobility and dread that accompanies a particular sleep state. In Thailand the term has become so deeply associated with the underlying experience that 'phi am' is used by both lay speakers and medical practitioners to mean sleep paralysis. Modern sleep medicine identifies the phenomenon as a parasomnia in which atonia of REM sleep persists into wakefulness, frequently accompanied by hypnopompic hallucinations of presence, weight, and pressure."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Thai. 'Phi' (ผี) is the generic Thai word for ghost or spirit; 'am' (อำ) is a verb meaning 'to press down', 'to hold in place', or 'to suppress'.",
+      "meaning": "'The ghost that presses down' or 'the suppressing ghost', describing the felt experience of being pinned to the bed.",
+      "first_use": "Vernacular Thai usage; documented in 20th-century Thai folklore writing and in cross-cultural sleep-paralysis literature."
     }
   },
   "classification": {
     "taxonomy": {
       "category": "GHOST_HAUNTING",
-      "type": "Unknown",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Spirit",
+      "subtype": "Sleep-paralysis entity (incubus/night-hag analogue)",
+      "variant": "Thai"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "old-hag", "name": "Old Hag", "relationship": "counterpart", "description": "Newfoundland sleep-paralysis tradition" },
+      { "id": "mara", "name": "Mara", "relationship": "counterpart", "description": "Germanic/Scandinavian night-pressing spirit" },
+      { "id": "kanashibari", "name": "Kanashibari", "relationship": "counterpart", "description": "Japanese 'bound-in-metal' sleep paralysis tradition" },
+      { "id": "bangungot", "name": "Bangungot", "relationship": "counterpart", "description": "Filipino sleep death/paralysis tradition" },
+      { "id": "khmaoch-sangkat", "name": "Khmaoch Sangkat", "relationship": "counterpart", "description": "Cambodian/Lao 'ghost that pushes you down' tradition" }
+    ]
   },
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Largely invisible / felt rather than seen", "description": "Witnesses typically describe pressure, weight, and presence rather than a clearly visualized figure", "frequency": "common" },
+        { "feature": "Crushing weight on chest", "description": "Sensation of a heavy entity sitting on the sleeper's chest, sometimes the liver, restricting breathing", "frequency": "always" },
+        { "feature": "Bruises or marks on waking", "description": "Some victims report unexplained bruises or scrapes after an episode", "frequency": "rare" }
+      ],
+      "morphology": "Phi Am is generally felt rather than seen; vernacular and modern-media depictions sometimes give it a shadowy human form, but the tradition emphasizes the sensation of being pressed down rather than a precise body."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Induce paralysis", "description": "Holds the sleeper immobile, unable to move limbs, speak, or cry out", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Obstruct breathing", "description": "Presses on the chest so the sleeper feels short of breath", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Cause nightmares and hallucinations", "description": "Associated with vivid dread, sensed presences, and hypnopompic imagery", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Leave physical marks", "description": "Folk reports of bruises or scrapes following an attack", "frequency": "rare", "evidence_level": "reported" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "aggressive",
+      "social_structure": "solitary",
+      "habitat_preference": ["bedrooms", "sleeping spaces", "homes"],
+      "diet": "Not described as physically feeding; in some retellings characterized as drawing on the sleeper's vital force",
+      "patterns": [
+        "Visits sleepers at night, typically as they fall asleep or wake",
+        "Sits on the chest, sometimes the liver, immobilizing the victim",
+        "Episode ends abruptly when the sleeper succeeds in moving or crying out"
+      ]
     }
   },
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Thailand, with cognate traditions throughout mainland Southeast Asia. Phi Am is part of the broader Thai phi cosmology and reflects a worldwide pattern of sleep-paralysis folklore.",
+      "continents": ["Asia"],
+      "countries": ["Thailand"],
+      "regions": ["Mainland Southeast Asia"]
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "Traditional",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Thai oral tradition; documented in 20th-century folklore writing and in modern Thai sleep-medicine usage"
+      },
+      "seasonal_patterns": "No reported seasonality; reports follow the underlying frequency of sleep paralysis."
     }
   },
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Embedded in the Thai phi (ผี) tradition — a vast cosmology of spirits associated with places, conditions, and life events. Phi Am specifically personifies the experience of sleep paralysis.",
+      "earliest_accounts": "Traditional oral folklore; modern documentation appears in Thai folklore studies and cross-cultural sleep-paralysis literature.",
+      "folklore_connections": "Belongs to the global 'night hag' family of sleep-paralysis spirits — Mara, Old Hag, kanashibari, bangungot, khmaoch sangkat — in which a supernatural being is blamed for the experience of waking immobility."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "Traditional", "event": "Phi Am appears in Thai oral tradition as the personification of sleep paralysis", "significance": "Cultural baseline for the phenomenon", "source": "Thai folklore (oral tradition)" },
+      { "date": "20th century", "event": "Term 'phi am' enters everyday and clinical Thai usage as a name for sleep paralysis itself", "significance": "Folkloric term becomes a medical colloquialism", "source": "Wikipedia, 'Ghosts in Thai culture'" }
+    ],
+    "modern_era": "Phi Am remains widely known in contemporary Thailand as both a folkloric figure and a synonym for sleep paralysis. It appears in Thai comics, films, and television. Cross-cultural studies of sleep paralysis (e.g. Jalal & Hinton) cite phi am alongside kanashibari, bangungot, and similar traditions as evidence that sleep paralysis is interpreted through culturally specific spirit narratives across the world."
   },
   "sightings": {
     "statistics": {
       "total_documented": 0,
       "verified": 0,
       "disputed": 0,
-      "debunked": 0
+      "debunked": 0,
+      "date_range": { "earliest": "traditional", "latest": "2026" }
     },
     "notable": [],
     "database_path": "./sightings/"
@@ -97,30 +133,101 @@
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "phi-am-evidence-thai-folklore-corpus",
+        "type": "folklore corpus",
+        "name": "Thai phi (ผี) folklore tradition",
+        "description": "Body of Thai oral and written folklore in which Phi Am appears as the personification of sleep paralysis.",
+        "status": "unverified",
+        "analysis": "Documented in folkloristics; the underlying physiological phenomenon (sleep paralysis) is well-established in sleep medicine.",
+        "source": "Wikipedia, 'Ghosts in Thai culture'; 'Night hag'"
+      }
+    ]
   },
   "theories": {
-    "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "paranormal": [
+      {
+        "name": "Spirit attack",
+        "description": "Traditional interpretation: a wandering spirit (phi) takes advantage of the sleeper's vulnerable state to press down on the chest and feed on or torment them.",
+        "proponents": ["Thai folk tradition"],
+        "evidence_cited": ["Subjective experience of presence, weight, and paralysis", "Reports of bruising following episodes"]
+      }
+    ],
+    "scientific": [
+      {
+        "name": "Sleep paralysis (REM atonia intrusion)",
+        "description": "A parasomnia in which the muscle atonia of REM sleep persists into early wakefulness, leaving the sleeper conscious but unable to move. Frequently accompanied by hypnopompic hallucinations of presence, pressure, and dread, which the brain interprets through culturally available imagery.",
+        "proponents": ["Mainstream sleep medicine", "Baland Jalal", "Devon E. Hinton"],
+        "evidence_cited": ["Polysomnographic studies of sleep paralysis", "Cross-cultural epidemiological surveys", "Consistent symptom cluster across radically different cultures"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Cultural framing of a universal experience",
+        "description": "Phi Am is not a distinct entity but the Thai cultural script applied to a worldwide neurological phenomenon, in the same way that the Old Hag, Mara, or kanashibari are local scripts for the same underlying experience.",
+        "proponents": ["Cross-cultural sleep paralysis researchers"],
+        "evidence_cited": ["Near-identical symptomology across cultures with no historical contact", "Consistent prevalence rates of sleep paralysis (~8–30% lifetime) regardless of belief"]
+      }
+    ]
   },
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Thai phi (ผี) ghost tradition",
+        "Southeast Asian sleep-paralysis spirit traditions"
+      ],
+      "stories": [
+        "First-person accounts of being held down and unable to breathe at night, often retold in Thai households as warnings or family memory"
+      ],
+      "beliefs": "Phi Am is regarded as a real, if minor, supernatural threat in popular Thai belief; the term has become common usage for sleep paralysis itself."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
+      "literature": [
+        "Thai folklore compendia and Thai-language ghost-story collections"
+      ],
+      "film_tv": [
+        "Phi Am and other phi figures recur in Thai horror cinema and television"
+      ],
       "games": [],
-      "other": []
+      "other": [
+        "Frequently depicted in Thai comics and online horror media"
+      ]
     }
   },
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "Baland Jalal", "affiliation": "University of Cambridge / Harvard Medical School (sleep & cross-cultural psychiatry)", "contribution": "Cross-cultural studies of sleep paralysis and its supernatural interpretations, including Southeast Asian traditions", "period": "2010s–present" },
+      { "name": "Devon E. Hinton", "affiliation": "Harvard Medical School (cultural psychiatry)", "contribution": "Research on culturally specific sleep paralysis experiences in Cambodia and the wider region", "period": "2000s–present" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "Sleep paralysis remains an active area of cross-cultural psychiatry and sleep medicine, with Thai phi am cited as a representative Southeast Asian case."
   },
-  "sources": []
+  "sources": [
+    {
+      "id": "wikipedia-phi-am-ghosts-thai",
+      "type": "website",
+      "title": "Ghosts in Thai culture — Phi Am",
+      "publication": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ghosts_in_Thai_culture",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "wikipedia-night-hag",
+      "type": "website",
+      "title": "Night hag",
+      "publication": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Night_hag",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "jalal-2016",
+      "type": "paper",
+      "title": "Sleep Paralysis in Brazilian Folklore and Other Cultures: A Brief Review",
+      "publication": "Frontiers in Psychology / PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5013036/",
+      "accessed": "2026-05-07"
+    }
+  ]
 }
